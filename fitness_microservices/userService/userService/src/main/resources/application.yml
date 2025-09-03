@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: userService
+  datasource:
+    url: jdbc:postgresql://localhost:5432/fitclub-user
+    username: postgres
+    password: Mom@1000
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+#    show-sql: true
+#    properties:
+#      hibernate:
+#        format_sql: true
